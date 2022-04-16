@@ -50,3 +50,23 @@ api = tweepy.API(auth)
 #print(tweet_list)
 
 api.update_status(status="Welcome Twitter ")
+
+
+#Retweet
+for tweet in api.favorite(screen_name='Bitcoin'):
+    try:
+        api.retweet(tweet.id)
+    except tweepy.TweepError as e:
+        print(e)
+
+for tweet in api.favorite(screen_name='ethereum'):
+    try:
+        api.retweet(tweet.id)
+    except tweepy.TweepError as e:
+        print(e)
+
+for tweet in api.favorite(screen_name='XRPcryptowolf'):
+    try:
+        api.retweet(tweet.id)
+    except tweepy.TweepError as e:
+        print(e)
