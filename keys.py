@@ -1,1 +1,6 @@
-API_KEY1 = '<NOMICS_API>'
+API_KEY1 = 'fa82ecd32d13309b3edb6c5568627c6c6c2f4965' #nomics api key
+bearer_token="AAAAAAAAAAAAAAAAAAAAAME6bgEAAAAAYfydmi8bYI7BoABobuhHqvIbJXE%3DwtYZ1T76gtPjQUClF8rliMFxeSwq8xa60qOGGrYXvkPPJ5yxrr" #twitter bearer token
+consumer_key='12dMOxIsCEOMt29rzwTxuoQHi'
+consumer_secret='NmOwTXP8n2xZXOcu08L0YVFeQsdallZdL3tVn5yeuGsaZOIGgb'
+access_token='1515311399878422542-FeSCd1AkfYAUv66xUUMLKPMg6f3vLw'
+access_token_secret='evZmeoNMRe72a9v0Hak2lMiapm6SOSVrZTPMB340rRUAZ'
